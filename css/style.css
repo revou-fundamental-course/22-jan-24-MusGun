@@ -1,4 +1,5 @@
-@import url();
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@300&family=Oswald:wght@600&display=swap');
+
 
 *{
     padding: 0;
@@ -19,7 +20,8 @@ a{
 
 body{
     font-family: 'poppins', sans-serif;
-    background-color: #181818;
+    background-image: linear-gradient(rgb(53, 53, 53), rgb(44, 248, 44));
+    height: auto;
 }
 
 nav{
@@ -84,25 +86,36 @@ nav{
     max-width: 1200px;
     margin: auto;
     padding: 5rem 2rem;
+    text-align: center;
+    font-family: 'Noto Serif', serif;
+    font-size: large;
 }
 
-.blur{
-    position: absolute;
-    box-shadow: 0 0 1000px 60px #7eff4293;
-    z-index: -100;
-   }
-  
 .package-image{
    display: flex;
    width: 40%;
 }
 
-.aside {
-   display: flex;
-   align-items: right;
+.section {
+    max-width: 1200px;
+    margin: auto;
+    padding: 5rem, 2rem;
+    display: flex;
+    flex-direction: row;
 }
 
-.contact-us {
-   /* display: flex;
-   align-items: right; */
+.section-package-image {
+    max-width: 500px;
+    justify-content: left;
+}
+
+.aside-title {
+    border: 5px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: right;
+    
+
+
 }
