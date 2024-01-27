@@ -108,21 +108,33 @@ nav{
     padding: 5rem, 2rem;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    border: 3px solid green;
 }
 
 .section-package-image {
-    max-width: 400px;
-    max-height: 40000px;
+    max-width: 500px;
+    max-height: auto;
     justify-content: left;
+    border-radius: 5%;
+    border: 3px solid whitesmoke;
 }
-.section {
-    justify-content: center;
-    border: 3px solid green;
- }
+
+.section-package-title {
+    border: 2px solid black;
+}
 
  .contact-main {
     border: 3px solid green;
     color: white;
  }
 
- .contact-main-title {}
+ .contact-main-title {
+    background-color: rgba(88, 255, 255, 0.363);
+    margin: 1rem;
+    border: 2px solid black;
+ }
+
+#name {
+    size: 20%;
+}
