@@ -113,8 +113,12 @@ nav{
     border: 3px solid green;
 }
 
+.section-package{
+    border: 2px solid black;
+}
+
 .section-package-image {
-    max-width: 500px;
+    max-width: auto;
     max-height: auto;
     justify-content: left;
     border-radius: 5%;
@@ -123,6 +127,10 @@ nav{
 
 .section-package-title {
     border: 2px solid black;
+}
+
+.section-package-title2{
+    text-align: center;
 }
 
  .contact-main {
@@ -145,5 +153,28 @@ nav{
     width: 40%;
     height: 400%; 
     border: 2px solid rgba(44, 245, 252, 0.568);
+    border-radius: 5%;
+    
 }
 
+#email {
+    margin-bottom: 5%;
+    height: 400%;
+    width: 40%;
+    border-radius: 5%;
+
+}
+
+#buah-sayur {
+    width: 40%;
+    height: 400%;
+    box-sizing: border-box;
+    margin-bottom: 5%;
+}
+
+#send {
+    width: 40%;
+    height: 400%;
+    border-radius: 10%;
+    
+}

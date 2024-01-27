@@ -41,9 +41,9 @@
 
     <section class="section">
             <div class="section-package">
-                <img src="assets/buah-buahan.jpg" alt="package-image" class="section-package-image"> <br>
+                <img src="assets/buah-sayur.jpg" alt="package-image" class="section-package-image"> <br>
                         <div class="section-package-title"></div>    
-                            <h1>Buah - buahan</h1>
+                            <h5 class="section-package-title2">"setiap hari beli sayur buah yang fresh disini"</h5>
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero impedit modi accusantium sed commodi, eos temporibus exercitationem fugit non in ipsa illum dolor cumque optio officiis autem velit quisquam atque.</p>
                         </div>
             </div>
@@ -51,11 +51,22 @@
                 <div class="contact-main-title">
                         <h1>Contact Us</h1><br>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam cumque dolor, maxime sit nostrum numquam non quasi repellat, architecto voluptate magni nobis iste soluta voluptatum corporis saepe sapiente beatae dolore?</p><br>
-                            <form class="customer-data" action="#">
-                                <label for="name">Your Name:</label><br>
-                                <input type="name" id="name" size="20" maxlength="20" required width="40px">
-                                <label for="email">Email Address:</label><br>
-                                <input type="email" name="email" id="email" aria-required="true">
+                            <form class="customer-data" action="/action/action_page.php">
+                                <label for="name">Your Name:<br>
+                                <input type="name" id="name" size="50" maxlength="20" required width="40px"></label>
+                                <label for="email">Email Address:<br>
+                                <input type="email" name="email" id="email" aria-required="true"><br></label>
+                                <label for="Option">What are you interested in?</label><br>
+                                <select name="buah-sayur" id="buah-sayur" required>
+                                    <option value=""></option>
+                                    <option value="buah">apel</option>
+                                    <option value="buah">jeruk</option>
+                                    <option value="sayur">brokoli</option>
+                                    <option value="sayur">tomat</option>
+                                </select><br>
+                                <label for="send">
+                                    <input type="submit" value="Send" id="send" size="">
+                                </label>
 
                             </form>
                         
