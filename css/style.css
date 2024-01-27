@@ -19,9 +19,13 @@ a{
 }
 
 body{
+    position: relative;
+    height: 100%;
+    width: 100%;
     font-family: 'poppins', sans-serif;
-    background-image: linear-gradient(rgb(53, 53, 53), rgb(44, 248, 44));
-    height: auto;
+    background-color: grey;
+    /* background-image: linear-gradient(rgb(53, 53, 53), rgb(44, 248, 44)); */
+    height: 100%;
 }
 
 nav{
@@ -89,6 +93,8 @@ nav{
     text-align: center;
     font-family: 'Noto Serif', serif;
     font-size: large;
+    color: white 
+    
 }
 
 .package-image{
@@ -105,17 +111,21 @@ nav{
 }
 
 .section-package-image {
-    max-width: 500px;
+    max-width: 400px;
+    max-height: 40000px;
     justify-content: left;
 }
+.section {
+    justify-content: center;
+    border: 3px solid green;
+ }
 
-.aside-title {
-    border: 5px solid black;
-    display: flex;
-    flex-direction: row;
-    justify-content: right;
-    align-items: right;
+ .contact-main {
+    border: 3px solid green;
+    color: white;
+ }
+
+ .contact-main-title {
     
+ }
 
-
-}
