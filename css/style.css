@@ -1,70 +1,108 @@
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+@import url();
+
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
 }
 
-.navigation-grocery {
+img{
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'poppins', sans-serif;
+    background-color: #181818;
+}
+
+nav{
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem 1rem;
+    display: flex;
     align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
 }
 
-.navigation-items{
-    list-style-type: none;
-    display: inline;
-}
-
-.navigation-items li {
-    display: inline;
-    margin-right: 16;
-}
-
-header {
-    text-align: center;
-
-}
- header img {
-    max-width: 100%;
-    height: 300px;
- }
-
- .our-package {
+.nav-logo{
+    max-width: 100px;
+    width: 100%;
     display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
-    
- }
+}
 
- .our-package div {
-    /* display: flex;
-    justify-content: center; */
-    text-align: center;
-    /* background-color: blue; */
-    justify-content: center;
- }
-
- .circle {
-    
-    width: 100px;
-    height: 100px;
-    border: 2px solid green;
-    border-radius: 50%;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
- }
-
- .inquiry-customer {
+.nav-link{
+    list-style: none;
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    gap: 3rem;
+}
 
- }
+.link a{
+    position: relative;
+    padding-bottom: 0.75rem;
+    color: #fff;
+}
 
- .inquiry-form {
-    display: flex;
-    flex-direction: column;
- }
+.link a::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #7eff4293;
+    transition: all 0.3s ease;
+}
 
- .output {
-    border: 1px solid black;
-    display: none;
- }
+.link a:hover::after{
+    width: 80%;
+}
+
+.btn{
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color:  #7eff4293;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn:hover{
+    background-color: #7eff4257;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 5rem 2rem;
+}
+
+.blur{
+    position: absolute;
+    box-shadow: 0 0 1000px 60px #7eff4293;
+    z-index: -100;
+   }
+  
+.package-image{
+   display: flex;
+   width: 40%;
+}
+
+.aside {
+   display: flex;
+   align-items: right;
+}
+
+.contact-us {
+   /* display: flex;
+   align-items: right; */
+}
