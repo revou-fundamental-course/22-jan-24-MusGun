@@ -124,29 +124,35 @@ nav{
     border: 3px rgba(237,240,244,255);
 }
 
-.section-package-title2 {
+.section-package-title {
+    display: flex;
+    flex-direction: column;
     text-align: center;
+}
+
+.section-package-title2 {
+    
     font-weight: lighter;
     font-size: large;
     font-style: italic;
 }
 
-.circle-1 {
+.circle-container {
     display: flex;
     flex-direction: row;
-    text-align: right;
+    /* padding-left: 4rem; */
+}
+
+.circle-avatar {
+    background-color: rgba(237,240,244,255);
+    border-radius: 50%;
     height: 50px;
     width: 50px;
-    background-color: black;
-    border-radius: 50%;
+    background-size: cover;
 }
 
 .circle-title1 {
-    margin: auto;
-    padding: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    text-align: center;
 }
 
 
