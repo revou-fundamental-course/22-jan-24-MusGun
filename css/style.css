@@ -256,23 +256,18 @@ select {
     flex-direction: row; */
     justify-content: center;
     text-align: center;
-    background-color: rgba(237,240,244,255);;
+    background-color: rgba(237,240,244,255);
 }
 
 .section-3 {
     max-width: 1200px;
     margin: 5rem;
     padding: 1rem;
-    padding-bottom: 10rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
     justify-content: space-between;
     /* border: 3px solid green; */
-}
-
-.section-3-circle-container {
-    
 }
 
 .section-3-circle-container1-section3 {
@@ -282,7 +277,7 @@ select {
 }
 
 .circle-avatar-section3 {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding: 2%;
     background-color: rgba(237,240,244,255);
     border-radius: 50%;
