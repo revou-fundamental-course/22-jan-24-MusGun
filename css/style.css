@@ -37,7 +37,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     gap: 2rem;
-    border-bottom: 1px solid aqua;
+    border-bottom: 1px solid rgba(237,240,244,255);
 }
 
 .nav-logo{
@@ -146,7 +146,7 @@ nav{
 }
 
 .circle-avatar {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding: 2%;
     background-color: rgba(237,240,244,255);
     border-radius: 50%;
@@ -214,6 +214,7 @@ nav{
 
  .contact-title1 {
     font-weight: 600;
+    padding-top: 1rem;
  }
 
 input {
@@ -249,9 +250,12 @@ select {
 
 #send {
     color: white;
-    background-color: grey;
+    background-color: rgb(41,50,61,255);
     width: 92%;
     height: 400%;
+    font-weight: 800;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .section-2 {
@@ -328,9 +332,81 @@ select {
     max-width: 1200px;
     margin: 5rem;
     padding: 1rem;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
 .section-4-container {
     display: flex;
+}
+
+.batas5 {
+    background-color: rgba(237,240,244,255);
+    border: 2px solid rgba(237,240,244,255);
+    /* border-radius: 50%; */
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.section-5 {
+    max-width: 1200px;
+    margin-top: 5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    padding-bottom: 1rem;
+}
+
+.section-5-container {
+    /* border: 1px solid black; */
+    padding-left: 15rem;
+    padding-right: 15rem;
+    /* margin-bottom: 20rem; */
+    padding-bottom: 5rem;
+    justify-content: center;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.section-5-body {
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+#call-to-action {
+    background-color: rgb(41,50,61,255);
+    color: white;
+    text-align: center;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-weight: 800;
+    font-size: large;
+}
+
+.batas6 {
+    background-color: rgba(237,240,244,255);
+    border: 2px solid rgba(237,240,244,255);
+    /* border-radius: 50%; */
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.footer {
+    max-width: 1200px;
+    margin-top: 5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    padding-bottom: 1rem;
+}
+
+.footer-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
 }
