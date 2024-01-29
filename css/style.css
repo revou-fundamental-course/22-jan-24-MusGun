@@ -410,10 +410,10 @@ select {
 
 .footer {
     max-width: 1200px;
-    margin-top: 5rem;
-    margin-left: 5rem;
-    margin-right: 5rem;
-    margin-bottom: 1rem;
+    margin-top: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 2rem;
     padding: 1rem;
     padding-bottom: 1rem;
 }
@@ -424,4 +424,26 @@ select {
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
+}
+
+
+.footer-title-body a{
+    position: relative;
+    padding-bottom: 0.75rem;
+    color: black;
+}
+
+.footer-title-body a::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #7eff4293;
+    transition: all 0.3s ease;
+}
+
+.footer-title-body a:hover::after{
+    width: 80%;
 }
