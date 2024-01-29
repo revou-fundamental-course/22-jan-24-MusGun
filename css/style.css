@@ -373,6 +373,21 @@ select {
     padding-right: 5rem;
 }
 
+.btn-footer{
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    color: white;
+    background-color:  rgb(41,50,61,255);
+    border-radius: 5px;
+    font-weight: 800;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn:hover{
+    background-color: #7eff4257;
+}
+
 #call-to-action {
     background-color: rgb(41,50,61,255);
     color: white;
