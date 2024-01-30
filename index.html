@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/script.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -32,6 +33,7 @@
 
     <home>
         <div class="container">
+            <span>selamat datang</span> <span id="test-nama">-</span>
             <h1>Top Rated <span><b> E-Groceries </b> </span> Shop In <br> Indonesia</h1>
             <p>Every Day with best ingredients</p>
         </div>
@@ -82,22 +84,30 @@
                 <div class="contact-main-title">
                         <h1>Contact Us</h1><br>
                             <p class="section-package-title3">Sales akan menghubungi anda 1x24 Jam setelah data kami terima.</p><br><br><br>
-                            <form class="customer-data" action="/action/action_page.php">
-                                <label class="contact-title1" for="name" id="">Your Name:<br>
-                                <input type="name" id="name" size="50" maxlength="20" required width="40px"></label>
-                                <label class="contact-title1"  for="email">Email Address:<br>
-                                <input type="email" name="email" id="email" required><br></label>
-                                <label class="contact-title1" for="Option">What are you interested in?</label><br>
-                                <select name="buah-sayur" id="buah-sayur" required>
-                                    <option value=""></option>
-                                    <option value="buah">apel</option>
-                                    <option value="buah">jeruk</option>
-                                    <option value="sayur">brokoli</option>
-                                    <option value="sayur">tomat</option>
-                                </select><br>
-                                <label for="send">
-                                    <input type="submit" value="SEND" id="send" size="">
-                                </label>
+                           
+                            <form class="customer-data" action="/" id="form">
+                                
+                                <div class="input-control">
+                                    <label for="username">Username</label>
+                                    <input id="username" name="username" type="text">
+                                    <div class="error"></div>
+                                </div>
+                                <div class="input-control">
+                                    <label for="email">Email</label>
+                                    <input id="email" name="email" type="text">
+                                    <div class="error"></div>
+                                </div>
+                                <div class="select">
+                                    <select name="pilihan" id="pilihan">
+                                        <option selected >Select option</option>
+                                        <option value="buah">apel</option>
+                                        <option value="buah">mangga</option>
+                                        <option value="sayur">brokoli</option>
+                                        <option value="sayur">kangkung</option>
+                                    </select>
+                                </div>
+
+                                <button class="btn" type="submit">Sign Up</button>
 
                             </form>
                         
