@@ -1,6 +1,7 @@
 const form = document.getElementById('form');
 const username = document.getElementById('username');
 const email = document.getElementById('email');
+const select = document.getElementById('select');
 
 form.addEventListener('submit', e => {
     e.preventDefault();
@@ -35,12 +36,13 @@ const validateInputs = () => {
     const usernameValue = username.value.trim();
     const emailValue = email.value.trim();
 
+
     if(usernameValue === '') {
         setError(username, 'Username is required');
     } else {
         setSuccess(username);
     }
-
+    
     if(emailValue === '') {
         setError(email, 'Email is required');
     } else if (!isValidEmail(emailValue)) {
@@ -48,4 +50,28 @@ const validateInputs = () => {
     } else {
         setSuccess(email);
     }
+
+    if(selectValue === '') {
+        setError(select, 'Selection is required');
+    } else {
+        setSuccess(select);
+    }
 };
+
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+    showDivs((slideIndex += n));
+}
+
+function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("slide");
+    if (n > x.length) slideIndex = 1
+    else if (n < 1) {slideIndex = x.length};
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+    }
+    x[slideIndex - 1].style.display = "block";
+}

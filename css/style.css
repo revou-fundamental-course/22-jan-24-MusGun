@@ -22,7 +22,7 @@ body{
     position: relative;
     display: flex;
     flex-direction: column;
-    height: 100%;
+    min-height: 100dvh;
     width: 100%;
     font-family: 'poppins', sans-serif;
     background-color: white;
@@ -123,7 +123,7 @@ nav{
 .section-package-image {
     display: flex;
     padding: 6px;
-    max-width: 500px;
+    width: 500px;
     max-height: 500px;
     justify-content: left;
     border-radius: 5%;
@@ -485,7 +485,7 @@ select {
  .select {
     position: relative;
     display: flex;
-    width: 20em;
+    width: 25em;
     height: 3em;
     line-height: 3;
     background: #5c6664;
@@ -507,3 +507,12 @@ select {
     color: #23b499;
  }
 
+ @media only screen and (max-width: 768px) {
+    .nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+ }
+
+ 
