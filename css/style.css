@@ -363,14 +363,14 @@ nav{
 }
 
 .section-5 {
+    margin: auto;
     margin-top: 5rem;
-    margin-left: 0rem;
-    margin-right: 0rem;
     margin-bottom: 0rem;
-    padding: 0rem;
+    padding: auto;
     padding-bottom: 0rem;
     padding-left: 2rem;
     padding-right: 2rem;
+    text-wrap: balance;
     /* border: 1px solid black; */
 }
 
@@ -698,5 +698,10 @@ select {
         width: 25px;
         padding: 0rem;
         background-size: cover;
+    }
+
+    .section-5{
+        text-wrap: balance;
+        font-size: smaller;
     }
     }
