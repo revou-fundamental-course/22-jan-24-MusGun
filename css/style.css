@@ -672,6 +672,8 @@ select {
     padding-left: 0rem;
     padding-right: 0rem;
     font-size: smaller;
+    padding-top: 2rem;
+    text-wrap: balance;
     }
 
     .section-4{
@@ -679,6 +681,17 @@ select {
     padding-left: 0;
     padding-right: 0;
     font-size: small;
+    text-wrap: balance;
     }
     
+    .circle-avatar-section3 {
+        /* border: 1px solid black; */
+        padding: 2%;
+        background-color: rgba(237,240,244,255);
+        border-radius: 50%;
+        height: 25px;
+        width: 25px;
+        padding: 0rem;
+        background-size: cover;
+    }
     }
