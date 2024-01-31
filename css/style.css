@@ -701,6 +701,22 @@ select {
     }
 
     .section-5{
+        margin: auto;
+        padding: auto;
+        padding-top: 4rem;
+        padding-bottom: 0rem;
+        text-wrap: balance;
+        font-size: smaller;
+    }
+    .section-5-title-head{
+        margin: auto;
+        padding: auto;
+        text-wrap: balance;
+        font-size: small;
+    }
+    .section-5-body{
+        margin: auto;
+        padding: auto;
         text-wrap: balance;
         font-size: smaller;
     }
