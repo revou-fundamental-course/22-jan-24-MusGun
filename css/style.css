@@ -566,13 +566,13 @@ select {
  @media only screen and (min-width: 320px) and (max-width: 768px) {
     body {
       background-color: lightblue;
-      margin: auto;
-      padding: auto;
-      border-bottom: 1px solid rgba(237,240,244,255);
+      margin: 0;
+      padding: 0rem 0rem;
+      
     }
     nav {
-        margin: auto;
-        padding: auto;
+        margin: 0;
+        padding: 0;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -581,7 +581,7 @@ select {
         /* border: 1px solid black; */
         text-wrap: balance;
         font-size: small;
-        border-bottom: 1px solid rgba(237,240,244,255);
+        /* border-bottom: 1px solid rgba(237,240,244,255); */
     }
     
     .nav-link{
@@ -701,8 +701,8 @@ select {
         /* border: 1px solid black; */
         background-color: rgba(237,240,244,255);
         border-radius: 50%;
-        height: 30px;
-        width: 30px;
+        height: 25px;
+        width: 25px;
         padding: 0rem;
         background-size: cover;
     }
