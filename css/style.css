@@ -763,7 +763,7 @@ select {
         background-color: rgba(237,240,244,255);
         border-radius: 50%;
         height: 15px;
-        width: 30px;
+        width: auto;
         padding: auto;
         background-size: cover;
     }
