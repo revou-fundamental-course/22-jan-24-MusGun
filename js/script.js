@@ -1,7 +1,7 @@
 const form = document.getElementById('form');
 const username = document.getElementById('username');
 const email = document.getElementById('email');
-const select = document.getElementById('select');
+const select = document.getElementById('pilihan');
 
 form.addEventListener('submit', e => {
     e.preventDefault();
@@ -35,6 +35,7 @@ const isValidEmail = email => {
 const validateInputs = () => {
     const usernameValue = username.value.trim();
     const emailValue = email.value.trim();
+    
 
 
     if(usernameValue === '') {
@@ -51,10 +52,10 @@ const validateInputs = () => {
         setSuccess(email);
     }
 
-    if(selectValue === '') {
-        setError(select, 'Selection is required');
+    if(pilihanValue === '') {
+        setError(pilihan, 'Selection is required');
     } else {
-        setSuccess(select);
+        setSuccess(pilihan);
     }
 };
 
@@ -75,3 +76,5 @@ function showDivs(n) {
     }
     x[slideIndex - 1].style.display = "block";
 }
+
+let 

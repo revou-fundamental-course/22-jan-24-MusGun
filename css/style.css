@@ -24,6 +24,9 @@ body{
     flex-direction: column;
     min-height: 100dvh;
     width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
     font-family: 'poppins', sans-serif;
     background-color: white;
     /* background-image: linear-gradient(rgb(53, 53, 53), rgb(44, 248, 44)); */
@@ -354,7 +357,7 @@ nav{
     margin-bottom: 0rem;
     padding: 0rem;
     padding-bottom: 0rem;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .section-5-container {
@@ -538,13 +541,104 @@ select {
  }
  .select:hover::after {
     color: #23b499;
+    cursor: pointer;
  }
 
- @media only screen and (max-width: 768px) {
-    .nav {
+ /* .select.option:hover::after {
+    color: #23b499;
+    cursor: pointer;
+ } */
+
+ @media only screen and (min-width: 320px) and (max-width: 768px) {
+    body {
+      background-color: lightblue;
+      margin: auto;
+      padding: auto;
+    }
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        /* align-items: start; */
+        border: 1px solid black;
+    }
+    
+    .nav-link{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .link a{
+        position: relative;
+        padding-bottom: 0.75rem;
+        color: black;
+    }
+    
+    .link a::after{
+        content: "";
+        position: absolute;
+        height: 2px;
+        width: 0;
+        bottom: 0;
+        left: 0;
+        background-color: #7eff4293;
+        transition: all 0.3s ease;
+    }
+    
+    .link a:hover::after{
+        width: 80%;
+    }
+
+    .btn{
+        padding: 1rem 2rem;
+        font-size: 1rem;
+        color: black;
+        background-color:  #7eff4293;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+    
+    .btn:hover{
+        background-color: #7eff4257;
+    }
+
+    .nav-logo{
+        display: flex;
+
+    }
+
+    .section-1{
+        margin: 1;
+        padding: 1;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: center;
     }
- }
 
+    .contact-main{
+        margin: 0;
+        padding-top: 2rem;
+        margin-top: 2rem;
+    }
+
+    .select{
+        width: auto;
+        height: auto;
+
+    }
+
+    .contact-main{
+        margin-bottom: 0;
+        padding-bottom: 5rem;
+        margin-left: 3rem;
+        margin-right: 4rem;
+    }
+
+    .section-package {
+        position: relative;
+        margin-left: 1rem;
+        margin-right: 2rem;
+        justify-content: center;
+    }
+  }
