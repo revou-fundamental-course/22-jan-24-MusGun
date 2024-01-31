@@ -24,7 +24,7 @@ body{
     flex-direction: column;
     min-height: 100%;
     width: 100%;
-    padding: 0rem 5rem;
+    padding: 0rem 0rem;
     top: 0;
     left: 0;
     right: 0;
@@ -109,7 +109,7 @@ nav{
     width: auto;
     height: auto;
     margin: 1rem;
-    margin-left: 4rem;
+    margin-left: 1rem;
     padding: auto;
     padding-bottom: 5rem;
     display: flex;
@@ -123,7 +123,13 @@ nav{
     /* border: 2px solid black; */
     display: flex;
     flex-direction: column;
-    margin: auto;
+    margin: 0rem;
+    margin-right: 10rem;
+}
+
+.slide{
+    height: 300px;
+    width: 500px;
 }
 
 
@@ -241,17 +247,21 @@ nav{
  .contact-main {
     /* position: relative; */
     background-color: rgba(237,240,244,255);
-    /* border: 2px solid black; */
+    border: 2px solid black;
     color: black;
     border-radius: 4%;
-    margin: 1em;
-    margin-left: 2rem;
+    margin: 0em;
+    padding: auto;
+    margin-left: 0rem;
+    padding-right: 0rem;
     padding-bottom: 0rem;
  }
 
  .contact-main-title {
     /* background-color: rgba(237,240,244,255); */
     margin: 2rem;
+    margin-left: 10rem;
+    padding-right: 5rem;
  }
 
  .section-package-title3{
@@ -535,7 +545,7 @@ select {
  .select {
     position: relative;
     display: flex;
-    width: 25em;
+    width: auto;
     height: 3em;
     line-height: 3;
     background: #5c6664;
@@ -640,6 +650,11 @@ select {
         justify-content: center;
     }
 
+    .slide{
+        height: 400px;
+        width: 670px;
+    }
+
     .contact-main{
         margin: auto;
         padding: auto;
@@ -687,7 +702,7 @@ select {
     padding-left: 0;
     padding-right: 0;
     font-size: smaller;
-    text-wrap: balance;
+    text-wrap: wrap;
     }
     
     .circle-avatar-section3 {
@@ -701,15 +716,15 @@ select {
     }
 
     .section-5{
-        text-wrap: balance;
+        text-wrap: wrap;
         font-size: smaller;
     }
     .section-5-title-head{
-        text-wrap: balance;
+        text-wrap: wrap;
         font-size: small;
     }
     .section-5-body{
-        text-wrap: balance;
+        text-wrap: wrap;
         font-size: smaller;
     }
     }
