@@ -361,6 +361,7 @@ nav{
 
 .section-4-container {
     display: flex;
+    flex-direction: row;
 }
 
 .batas5 {
@@ -709,6 +710,8 @@ select {
     }
 
     .section-4{
+        display: flex;
+        flex-direction: row;
         margin: 0rem;
         padding: 0rem;
         padding-left: auto;
@@ -718,9 +721,15 @@ select {
         text-wrap: balance;
     }
 
+    .section-4-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
     .circle-title1-section3-head {
         font-weight: bold;
-        font-size: smaller;
+        font-size: small;
     }
 
     .circle-title2-section3  {
@@ -731,7 +740,7 @@ select {
         /* border: 1px solid black; */
         background-color: rgba(237,240,244,255);
         border-radius: 50%;
-        height: 30px;
+        height: 20px;
         width: 30px;
         padding: 0rem;
         background-size: cover;
