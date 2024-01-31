@@ -586,7 +586,14 @@ select {
     }
     
     .link a:hover::after{
-        width: 80%;
+        width: auto;
+    }
+
+    /* #nav-logo-musgun{
+    } */
+
+    #nav-musgun-button {
+        display: ;
     }
 
     .btn{
