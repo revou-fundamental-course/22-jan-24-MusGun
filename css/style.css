@@ -290,7 +290,7 @@ nav{
     background-color: rgba(237,240,244,255);
     border-radius: 50%;
     height: 60px;
-    width: 60px;
+    width: auto;
     padding: 1rem;
     background-size: cover;
 }
@@ -323,7 +323,7 @@ nav{
     background-color: rgba(237,240,244,255);
     border-radius: 50%;
     height: 60px;
-    width: 60px;
+    width: auto;
     padding: auto;
     background-size: cover;
 }
@@ -716,7 +716,7 @@ select {
     background-color: rgba(237,240,244,255);
     border-radius: 50%;
     height: 30px;
-    width: 30px;
+    width: auto;
     padding: auto;
     background-size: cover;
     }
