@@ -120,11 +120,11 @@ nav{
 
 .section-package{
     background-color: white;
-    /* border: 2px solid black; */
+    border: 2px solid black;
     display: flex;
     flex-direction: column;
     margin: 0rem;
-    margin-right: 10rem;
+    margin-right: 5rem;
 }
 
 .slide{
@@ -260,8 +260,7 @@ nav{
  .contact-main-title {
     /* background-color: rgba(237,240,244,255); */
     margin: 2rem;
-    margin-left: 10rem;
-    padding-right: 5rem;
+    margin-left: 2em;
  }
 
  .section-package-title3{
@@ -676,11 +675,21 @@ select {
     }
 
     .section-package {
-        position: relative;
         margin-left: 0rem;
         margin-right: 0rem;
         justify-content: center;
     }
+
+    .select {
+        position: relative;
+        display: flex;
+        width: auto;
+        height: 3em;
+        line-height: 3;
+        background: #5c6664;
+        overflow: hidden;
+        border-radius: .25em;
+     }
 
     .section-2{
         margin: fit-content;
