@@ -633,15 +633,16 @@ select {
     }
 
     .section-1{
-        margin: 1;
-        padding: 1;
+        margin: auto;
+        padding: auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
 
     .contact-main{
-        margin: 0;
+        margin: auto;
+        padding: auto;
         padding-top: 2rem;
         margin-top: 2rem;
     }
@@ -664,6 +665,11 @@ select {
         margin-left: 0rem;
         margin-right: 0rem;
         justify-content: center;
+    }
+
+    .section-2{
+        margin: fit-content;
+        padding: fit-content;
     }
 
     .section-3{
