@@ -274,13 +274,17 @@ nav{
 }
 
 .section-3 {
-    max-width: 1200px;
-    margin: 5rem;
-    padding: 1rem;
+    /* max-width: 1200px; */
+    margin: 0rem;
+    padding: 0rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    /* justify-content: space-between; */
     /* border: 3px solid green; */
 }
 
@@ -332,9 +336,14 @@ nav{
 }
 
 .section-4 {
-    max-width: 1200px;
-    margin: 5rem;
-    padding: 1rem;
+    /* max-width: 1200px; */
+    margin: 0rem;
+    padding: 0rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    justify-content: center;
+    align-items: center;
     /* border: 2px solid black; */
 }
 
@@ -352,11 +361,13 @@ nav{
 
 .section-5 {
     margin-top: 5rem;
-    margin-left: 5rem;
-    margin-right: 5rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
     margin-bottom: 0rem;
     padding: 0rem;
     padding-bottom: 0rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     /* border: 1px solid black; */
 }
 
@@ -552,8 +563,8 @@ select {
  @media only screen and (min-width: 320px) and (max-width: 768px) {
     body {
       background-color: lightblue;
-      margin: auto;
-      padding: auto;
+      margin: 0;
+      padding: 0;
     }
     nav {
         display: flex;
@@ -648,4 +659,8 @@ select {
         margin-right: 2rem;
         justify-content: center;
     }
+  }
+
+  .section-3{
+    margin: 0rem;
   }
