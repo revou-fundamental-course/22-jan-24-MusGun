@@ -1,7 +1,7 @@
 const form = document.getElementById('form');
 const username = document.getElementById('username');
 const email = document.getElementById('email');
-const select = document.getElementById('pilihan');
+const select = document.getElementById('selects');
 
 form.addEventListener('submit', e => {
     e.preventDefault();
@@ -35,6 +35,8 @@ const isValidEmail = email => {
 const validateInputs = () => {
     const usernameValue = username.value.trim();
     const emailValue = email.value.trim();
+    const selectValue = select.value.trim();
+
     
 
 
@@ -51,13 +53,18 @@ const validateInputs = () => {
     } else {
         setSuccess(email);
     }
-
-    if(pilihanValue === '') {
-        setError(pilihan, 'Selection is required');
+    
+    if(selectValue === "Select an option") {
+        setError(select, 'Select is required');
     } else {
-        setSuccess(pilihan);
+        setSuccess(select);
     }
+
+
 };
+
+
+
 
 var slideIndex = 1;
 showDivs(slideIndex);
@@ -77,4 +84,21 @@ function showDivs(n) {
     x[slideIndex - 1].style.display = "block";
 }
 
-let 
+
+// const inputName = document.getElementById('username');
+// const inputEmail = document.getElementById('email');
+
+// const button = document.getElementById('tombol-kirim');
+
+// button.addEventListener('click', function()) {
+//     let nama = inputName.value;
+//     let email = inputEmail.value;
+
+//     if (!nama) {
+//         const nameError = document.getElementById('error');
+//         nameError.classList.add('error-message');
+
+//         nameError.innerText = "nama harus"
+//     }
+    
+// }
