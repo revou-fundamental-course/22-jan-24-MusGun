@@ -567,7 +567,7 @@ select {
     body {
       background-color: lightblue;
       margin: 0;
-      padding: 5rem 5rem;
+      padding: 0rem 0rem;
     }
     nav {
         display: flex;
@@ -580,6 +580,8 @@ select {
     .nav-link{
         display: flex;
         flex-direction: row;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
     }
 
     .link a{
@@ -611,6 +613,7 @@ select {
     } */
 
     .btn{
+        display: none;
         padding: 1rem 2rem;
         font-size: 1rem;
         color: black;
@@ -625,7 +628,7 @@ select {
     }
 
     .nav-logo{
-        display: flex;
+        display: none;
 
     }
 
