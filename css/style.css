@@ -120,7 +120,7 @@ nav{
 
 .section-package{
     background-color: white;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     display: flex;
     flex-direction: column;
     margin: 0rem;
@@ -247,9 +247,9 @@ nav{
  .contact-main {
     /* position: relative; */
     background-color: rgba(237,240,244,255);
-    border: 2px solid black;
+    /* border: 2px solid black; */
     color: black;
-    border-radius: 4%;
+    border-radius: 5%;
     margin: 0em;
     padding: auto;
     margin-left: 0rem;
