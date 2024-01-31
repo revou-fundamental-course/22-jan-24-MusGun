@@ -566,15 +566,22 @@ select {
  @media only screen and (min-width: 320px) and (max-width: 768px) {
     body {
       background-color: lightblue;
-      margin: 0;
-      padding: 0rem 0rem;
+      margin: auto;
+      padding: auto;
+      border-bottom: 1px solid rgba(237,240,244,255);
     }
     nav {
+        margin: auto;
+        padding: auto;
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
+        justify-content: center;
         /* align-items: start; */
-        border: 1px solid black;
+        /* border: 1px solid black; */
+        text-wrap: balance;
+        font-size: small;
+        border-bottom: 1px solid rgba(237,240,244,255);
     }
     
     .nav-link{
@@ -593,7 +600,7 @@ select {
     .link a::after{
         content: "";
         position: absolute;
-        height: 2px;
+        height: 20px;
         width: 0;
         bottom: 0;
         left: 0;
