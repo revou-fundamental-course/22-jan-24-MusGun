@@ -102,8 +102,10 @@ nav{
 }
 
 .section-1 {
-    max-width: 1200px;
-    margin: 5rem;
+    width: auto;
+    height: auto;
+    margin: 1rem;
+    margin-left: 4rem;
     padding: auto;
     padding-bottom: 5rem;
     display: flex;
@@ -120,14 +122,44 @@ nav{
     margin: auto;
 }
 
+
+.section-package-image-container {
+    width: auto;
+    height: auto;
+    justify-content: space-around;
+    border: 2px solid rgba(237,240,244,255);
+    border-radius: 4%;
+}
+
 .section-package-image {
-    display: flex;
-    padding: 6px;
-    width: 500px;
-    max-height: 500px;
-    justify-content: left;
-    border-radius: 5%;
+    border-radius: 4%;
     border: 3px rgba(237,240,244,255);
+    width: 500px;
+    height: 500px;
+    
+}
+
+.btn-2-container{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.btn-2{
+    margin: 0dvh;
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    color: black;
+    background-color:  #7eff4293;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-2:hover{
+    background-color: #7eff4257;
 }
 
 .section-package-title {
@@ -316,19 +348,19 @@ nav{
 }
 
 .section-5 {
-    max-width: 1200px;
     margin-top: 5rem;
     margin-left: 5rem;
     margin-right: 5rem;
-    margin-bottom: 1rem;
-    padding: 1rem;
-    padding-bottom: 1rem;
+    margin-bottom: 0rem;
+    padding: 0rem;
+    padding-bottom: 0rem;
+    border: 1px solid black;
 }
 
 .section-5-container {
     /* border: 1px solid black; */
-    padding-left: 15rem;
-    padding-right: 15rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
     /* margin-bottom: 20rem; */
     padding-bottom: 5rem;
     justify-content: center;
@@ -344,15 +376,16 @@ nav{
 .btn-footer{
     padding: 1rem 3rem;
     font-size: 1rem;
-    color: white;
+    color: black;
     background-color:  rgb(41,50,61,255);
+    background-color: #7eff4293;
     border-radius: 5px;
     font-weight: 800;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
-.btn:hover{
+.btn-footer:hover{
     background-color: #7eff4257;
 }
 
@@ -420,10 +453,14 @@ nav{
     padding: 10px;
     margin-top: 10px;
     width: 100%;
-    color: white;
-    background-color: rgb(41, 57, 194);
+    color: black;
+    background-color: #7eff4293;
     border: none;
     border-radius: 4px;
+}
+
+#form button:hover {
+        background-color: #7eff4257;
 }
 
 .input-control {
@@ -456,10 +493,6 @@ nav{
     color: #ff3860;
     font-size: 9px;
     height: 13px;
-}
-
-.btn:hover{
-    background-color: #7eff4257;
 }
 
 select {
@@ -515,4 +548,3 @@ select {
     }
  }
 
- 
