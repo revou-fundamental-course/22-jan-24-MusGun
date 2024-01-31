@@ -655,14 +655,14 @@ select {
     .contact-main{
         margin-bottom: 0;
         padding-bottom: 5rem;
-        margin-left: 3rem;
-        margin-right: 4rem;
+        margin-left: 0rem;
+        margin-right: 0rem;
     }
 
     .section-package {
         position: relative;
-        margin-left: 1rem;
-        margin-right: 2rem;
+        margin-left: 0rem;
+        margin-right: 0rem;
         justify-content: center;
     }
 
@@ -680,13 +680,12 @@ select {
     margin: 0;
     padding-left: 0;
     padding-right: 0;
-    font-size: small;
+    font-size: smaller;
     text-wrap: balance;
     }
     
     .circle-avatar-section3 {
         /* border: 1px solid black; */
-        padding: 2%;
         background-color: rgba(237,240,244,255);
         border-radius: 50%;
         height: 25px;
