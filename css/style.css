@@ -284,6 +284,17 @@ nav{
     background-color: rgba(237,240,244,255);
 }
 
+.circle-avatar-section1{
+     /* border: 1px solid black; */
+    padding: 2%;
+    background-color: rgba(237,240,244,255);
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    padding: 1rem;
+    background-size: cover;
+}
+
 .section-3 {
     /* max-width: 1200px; */
     margin: 0rem;
@@ -313,7 +324,7 @@ nav{
     border-radius: 50%;
     height: 60px;
     width: 60px;
-    padding: 1rem;
+    padding: auto;
     background-size: cover;
 }
 
@@ -699,6 +710,17 @@ select {
         padding: fit-content;
     }
 
+    .circle-avatar-section1{
+    /* border: 1px solid black; */
+    padding: 2%;
+    background-color: rgba(237,240,244,255);
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    padding: auto;
+    background-size: cover;
+    }
+
     .section-3{
     margin: 0rem;
     padding: 0rem;
@@ -742,7 +764,7 @@ select {
         border-radius: 50%;
         height: 20px;
         width: 30px;
-        padding: 0rem;
+        padding: auto;
         background-size: cover;
     }
 
