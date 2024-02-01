@@ -593,7 +593,7 @@ select {
     nav {
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
         /* align-items: start; */
         border: 1px solid black;
     }
@@ -603,6 +603,8 @@ select {
         flex-direction: row;
         padding-top: 1rem;
         padding-bottom: 1rem;
+        /* border: 1px solid black; */
+        justify-content: space-between;
     }
 
     .link a{
