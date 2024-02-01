@@ -201,7 +201,6 @@ nav{
     border-radius: 50%;
     height: 60px;
     width: 60px;
-    background-size: cover;
 }
 
 .circle-title-container {
@@ -292,7 +291,6 @@ nav{
     height: 60px;
     width: 60px;
     padding: 1rem;
-    background-size: cover;
 }
 
 .section-3 {
@@ -720,7 +718,6 @@ select {
     height: 30px;
     width: 30px;
     padding: 0rem;
-    background-size: cover;
     }
 
     .section-3{
