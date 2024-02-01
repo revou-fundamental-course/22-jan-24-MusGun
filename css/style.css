@@ -593,7 +593,7 @@ select {
         flex-direction: row;
         justify-content: space-between;
         /* align-items: start; */
-        border: 1px solid black;
+        /* border: 1px solid black; */
     }
     
     .nav-link{
@@ -623,7 +623,7 @@ select {
     }
     
     .link a:hover::after{
-        width: auto;
+        width: 80%;
     }
 
     /* #nav-logo-musgun{
@@ -668,6 +668,31 @@ select {
         width: 300px;
     }
 
+    .container{
+        font-size: small;
+        text-wrap: balance;
+    }
+
+    .section-package-title2{
+        font-size: small;
+    }
+
+    .circle-avatar{
+        font-size: small;
+        height: 50px;
+        width: 50px;
+
+    }
+
+    .list-benefit-title{
+        font-size: medium;
+    }
+
+    .circle-title1-section3{
+        /* font-size: medium; */
+        color: rgba(78, 107, 145);
+    }
+
     .contact-main{
         margin: auto;
         padding: auto;
@@ -708,6 +733,7 @@ select {
     .section-2{
         margin: fit-content;
         padding: fit-content;
+        font-size: medium;
     }
 
     .circle-avatar-section1{
@@ -746,11 +772,12 @@ select {
     display: flex;
     flex-direction: row;
     justify-content: center;
-}
+    } 
 
     .circle-title1-section3-head {
-        font-weight: bold;
+        font-weight: bolder;
         font-size: small;
+        color: black;
     }
 
     .circle-title2-section3  {
@@ -774,16 +801,47 @@ select {
         text-wrap: balance;
         font-size: smaller;
     }
+
     .section-5-title-head{
         text-wrap: wrap;
         font-size: smaller;
+
     }
+
     .section-5-body {
         margin: auto;
         padding: auto;
         display: flex;
         flex-direction: column;
         text-align: center;
-        text-wrap: wrap;
+        text-wrap: balance;
         font-size: x-small;
+        color: rgba(78, 107, 145);
+    }
+
+    .footer-title-body a{
+        position: relative;
+        padding-bottom: 0.75rem;
+        color: black;
+    }
+    
+    .footer-title-body a::after{
+        content: "";
+        position: absolute;
+        height: 2px;
+        width: 0;
+        bottom: 0;
+        left: 0;
+        top: 1rem;
+        background-color: #7eff4293;
+        transition: all 0.3s ease;
+    }
+    
+    .footer-title-body a:hover::after{
+        width: 80%;
+    }
+
+    .footer-container{
+        font-size: x-small;
+    }
     }
